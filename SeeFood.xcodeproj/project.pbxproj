@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D3D1D6D1FE4B1F700151678 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3D1D6C1FE4B1F700151678 /* BounceButton.swift */; };
 		3DD908F71FE3691400DADF7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD908F61FE3691400DADF7B /* AppDelegate.swift */; };
 		3DD908F91FE3691400DADF7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD908F81FE3691400DADF7B /* ViewController.swift */; };
 		3DD908FC1FE3691400DADF7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD908FA1FE3691400DADF7B /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		3DD909011FE3691400DADF7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD908FF1FE3691400DADF7B /* LaunchScreen.storyboard */; };
 		3DD9090C1FE3691400DADF7B /* SeeFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9090B1FE3691400DADF7B /* SeeFoodTests.swift */; };
 		3DD909171FE3691400DADF7B /* SeeFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD909161FE3691400DADF7B /* SeeFoodUITests.swift */; };
+		3DD909251FE3692600DADF7B /* Food101.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3DD909241FE3692600DADF7B /* Food101.mlmodel */; };
+		3DD909271FE377D500DADF7B /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD909261FE377D500DADF7B /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D3D1D6C1FE4B1F700151678 /* BounceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
 		3DD908F31FE3691300DADF7B /* SeeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD908F61FE3691400DADF7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DD908F81FE3691400DADF7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		3DD909121FE3691400DADF7B /* SeeFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeeFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD909161FE3691400DADF7B /* SeeFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeFoodUITests.swift; sourceTree = "<group>"; };
 		3DD909181FE3691400DADF7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD909241FE3692600DADF7B /* Food101.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Food101.mlmodel; sourceTree = "<group>"; };
+		3DD909261FE377D500DADF7B /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 		3DD908F51FE3691300DADF7B /* SeeFood */ = {
 			isa = PBXGroup;
 			children = (
+				3DD909241FE3692600DADF7B /* Food101.mlmodel */,
 				3DD908F61FE3691400DADF7B /* AppDelegate.swift */,
 				3DD908F81FE3691400DADF7B /* ViewController.swift */,
 				3DD908FA1FE3691400DADF7B /* Main.storyboard */,
+				3D3D1D6C1FE4B1F700151678 /* BounceButton.swift */,
+				3DD909261FE377D500DADF7B /* RoundButton.swift */,
 				3DD908FD1FE3691400DADF7B /* Assets.xcassets */,
 				3DD908FF1FE3691400DADF7B /* LaunchScreen.storyboard */,
 				3DD909021FE3691400DADF7B /* Info.plist */,
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DD909271FE377D500DADF7B /* RoundButton.swift in Sources */,
+				3D3D1D6D1FE4B1F700151678 /* BounceButton.swift in Sources */,
+				3DD909251FE3692600DADF7B /* Food101.mlmodel in Sources */,
 				3DD908F91FE3691400DADF7B /* ViewController.swift in Sources */,
 				3DD908F71FE3691400DADF7B /* AppDelegate.swift in Sources */,
 			);
@@ -433,7 +445,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.williamwong.SeeFood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -448,7 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.williamwong.SeeFood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
